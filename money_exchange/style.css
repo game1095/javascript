@@ -16,7 +16,6 @@ body{
 }
 
 .btn{
-    color: white;
     background-color: orange;
     cursor: pointer;
     border-radius: 5px;
