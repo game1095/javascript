@@ -8,8 +8,16 @@ const levelFormEl = document.getElementById("level-form");
 const levelEl = document.getElementById("level");
 const gameOverEl = document.getElementById("gameover-container");
 
-// สุ่มคำ
-const words = ["เต่า", "ม้า", "หมี", "โปโยะ", "โปนี่", "แคร์แบร์"];
+// คำที่ใช้สำหรับสุ่ม
+const words_easy = ["เต่า", "ม้า", "หมี", "โปโยะ", "โปนี่", "แคร์แบร์"];
+const words_medium = ["application", "developer", "mobile", "react.js"];
+const words_hard = [
+  "น้ำขึ้นให้รีบตัก",
+  "ตีเหล็กต้องตีตอนร้อน",
+  "ปิดทองหลังพระ",
+  "กบในกะลาครอบ",
+  "หมากัดอย่ากัดตอบ",
+];
 let randomText;
 let score = 0;
 let time = 15;
@@ -23,9 +31,15 @@ const saveMode =
 
 const timeInterval = setInterval(updateTime, 1000);
 
-// สุ่มคำจาก array words
+// สุ่มคำจาก array ที่ระบุค่าตามความยาก
 function getRandomWord() {
-  return words[Math.floor(Math.random() * words.length)];
+  if (saveMode == "easy") {
+    return words_easy[Math.floor(Math.random() * words_easy.length)];
+  } else if (saveMode == "medium") {
+    return words_medium[Math.floor(Math.random() * words_medium.length)];
+  }else{
+    return words_hard[Math.floor(Math.random() * words_hard.length)];
+  }
 }
 
 // เอาข้อความที่สุ่มจาก getRandomWord ไปแสดงในหน้า html
@@ -77,7 +91,13 @@ textEl.addEventListener("input", (e) => {
 });
 
 function updateScore() {
-  score += 10;
+    if (saveMode == "easy") {
+        score += 10;
+      } else if (saveMode == "medium") {
+        score += 20;
+      } else {
+        score += 30;
+      }
   scoreEl.innerHTML = score;
 }
 
