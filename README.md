@@ -1,7 +1,7 @@
 # Practice Javasciprt
 
-|Project| Description |Link|
-|---------|-----------|----|
+|Project| Description |Github|Link|
+|---------|-----------|----|-----|
 |1.Money Exchange | ใช้ api ในการดึงอัตราแลกเปลี่ยน | [Click](https://github.com/game1095/javascript/tree/main/money_exchange)|
 |2.Money Tracker | โปรแกรมรายรับ - รายจ่าย | [Click](https://github.com/game1095/javascript/tree/main/money_tracker)|
 |3.Light&dark Mode | ปรับหน้าจอ website ในรูปแบบ dark หรือ light Mode| [Click](https://github.com/game1095/javascript/tree/main/light_dark_mode)|
