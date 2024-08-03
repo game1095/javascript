@@ -16,7 +16,7 @@ let operatorValue = "";
 let waitForNext = false; //เก็บสถานะตัวเลข 1 และตัวดำเนินการ
 
 function setNumberValue(number) {
-  if (waitForNext) {
+  if (waitForNext === true) {
     calculatorDisplay.textContent = number;
     waitForNext = false;
   } else {
