@@ -7,3 +7,4 @@
 |3.Light&dark Mode | ปรับหน้าจอ website ในรูปแบบ dark หรือ light Mode| [Click](https://github.com/game1095/javascript/tree/main/light_dark_mode)|
 |4.Speed typing Game | เกมส์พิมพ์เร็ว โดยสามารถปรับเลือกโหมดความยากได้ | [Click](https://github.com/game1095/javascript/tree/main/speed_typing_game)|
 |5.Music Player | สร้างโปรแกรมเล่นเพลงแบบพื้นฐาน | [Click](https://github.com/game1095/javascript/tree/main/music_player)|
+|6.Calculator | สร้างเครื่องคิดเลขอย่างง่ายขึ้นมา | [Click](https://github.com/game1095/javascript/tree/main/calculator)|
