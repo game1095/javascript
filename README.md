@@ -8,3 +8,4 @@
 |4.Speed typing Game | เกมส์พิมพ์เร็ว โดยสามารถปรับเลือกโหมดความยากได้ | [Click](https://github.com/game1095/javascript/tree/main/speed_typing_game)|
 |5.Music Player | สร้างโปรแกรมเล่นเพลงแบบพื้นฐาน | [Click](https://github.com/game1095/javascript/tree/main/music_player)|
 |6.Calculator | สร้างเครื่องคิดเลขอย่างง่ายขึ้นมา | [Click](https://github.com/game1095/javascript/tree/main/calculator)|
+|7.Text Reveal Effect | เลื่อนหน้าจอแล้ว text fade-in-out | [Click](https://github.com/game1095/javascript/tree/main/text_reveal_effect)|
