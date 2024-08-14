@@ -14,5 +14,6 @@
 |9.Movie Booking App | จองตั๋วภาพยนตร์ | [Click](https://github.com/game1095/javascript/tree/main/movie_booking)|
 |10.Movie App | ค้นหาภาพยนตร์ | [Click](https://github.com/game1095/javascript/tree/main/movie_app)|
 |11.Weather App | ค้นหาสภาพอากาศ | [Click](https://github.com/game1095/javascript/tree/main/weather)|
+|12.Content Loader | ค้นหาสภาพอากาศ | [Click](https://github.com/game1095/javascript/tree/main/content_load)|
 
 

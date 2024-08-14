@@ -41,19 +41,17 @@ function showDataToUI(data) {
   status.innerText = "Status: " + data.weather[0].main;
   humidity.innerText = "Humidity: " + data.main.humidity;
   wind.innerHTML = "Wind Speed: " + data.wind.speed;
-
-  console.log(data)
 }
 
 function calculate(kelvin) {
   return kelvin - 273;
 }
 
-function callDataAPI(event){
+function callDataAPI(event) {
   event.preventDefault();
-  city = search.value
+  city = search.value;
   showWeather();
 }
 
-form.addEventListener("submit" , callDataAPI)
+form.addEventListener("submit", callDataAPI);
 setData();
