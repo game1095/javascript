@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>ข้อมูลสภาพอากาศ</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>ข้อมูลสภาพอากาศ</h1>
+                <form id="form">
+                    <input type="text" id="search"
+                        placeholder="Search city name">
+                    <button type="submit">Search</button>
+                </form>
+            </header>
+            <section>
+                <div id="location">
+                    <h1 id="city"></h1>
+                    <p id="state"></p>
+                </div>
+                <div id="card">
+                    <div id="weather">
+                        <h1></h1>
+                        <small></small>
+                    </div>
+                    <div id="info">
+                        <div id="status"></div>
+                        <div id="humidity"></div>
+                        <div id="wind"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./script.js"></script>
+</html>
