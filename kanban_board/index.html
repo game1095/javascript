@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Kanban Board</title>
+    </head>
+    <body>
+        <h1 class="main-title">Kanban Board</h1>
+        <div class="drag-container">
+            <ul class="drag-list">
+                <!--  start งานค้าง -->
+                <li class="drag-column backlog-column">
+                    <span class="header">
+                        <h1>งานค้าง</h1>
+                    </span>
+                    <div id="backlog-content" class="custom-scroll">
+                        <ul class="drag-item-list" id="backlog-list">
+                            <li class="drag-item"
+                                draggable="true">Animation</li>
+                            <li class="drag-item"
+                                draggable="true">Quatation</li>
+                            <li class="drag-item" draggable="true">Vacation</li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- end งานค้าง -->
+
+                <!-- start งานที่ทำอยู่ -->
+                <li class="drag-column progress-column">
+                    <span class="header">
+                        <h1>ดำเนินการ</h1>
+                    </span>
+                    <div id="progress-content" class="custom-scroll">
+                        <ul class="drag-item-list" id="progress-list">
+                            <li class="drag-item"
+                                draggable="true">Animation</li>
+                            <li class="drag-item"
+                                draggable="true">Quatation</li>
+                            <li class="drag-item" draggable="true">Vacation</li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- end งานที่ทำอยู่ -->
+
+                <!-- start งานที่เสร็จแล้ว -->
+                <li class="drag-column complete-column">
+                    <span class="header">
+                        <h1>เสร็จสมบูรณ์</h1>
+                    </span>
+                    <div id="complete-content" class="custom-scroll">
+                        <ul class="drag-item-list" id="complete-list"></ul>
+                    </div>
+                </li>
+                <!-- end งานที่เสร็จแล้ว -->
+
+                <!-- start งานไม่ผ่าน -->
+                <li class="drag-column reject-column">
+                    <span class="header">
+                        <h1>ไม่ผ่าน</h1>
+                    </span>
+                    <div id="reject-content" class="custom-scroll">
+                        <ul class="drag-item-list" id="reject-list"></ul>
+                    </div>
+                </li>
+                <!-- end งานไม่ผ่าน -->
+            </ul>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

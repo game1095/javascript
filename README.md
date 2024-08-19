@@ -19,6 +19,7 @@
 |14.Picture in Picture | สร้าง Picture in Picture | [Click](https://github.com/game1095/javascript/tree/main/picture_in_picture)|
 |15.infinite_scroll | สร้าง infinite scroll ภาพด้วย Unsplash API| [Click](https://github.com/game1095/javascript/tree/main/infinite_scroll)|
 |16.Flash Card Game | Flash Card เกมส์แบบง่าย ๆ | [Click](https://github.com/game1095/javascript/tree/main/flash_card_game)|
+|17.Kanban Board | Kanban Board แบบง่าย ๆ | [Click](https://github.com/game1095/javascript/tree/main/kanban_board)|
 
 
 
