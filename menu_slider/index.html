@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <title>Menu Silder</title>
+    </head>
+    <body>
+        <!-- side menu -->
+        <nav>
+            <div class="logo">
+                <img src="./logo.png">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- header -->
+        <header>
+            <button id="toggle" class="toggle">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <h1>Megamind</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum, dolor.</p>
+            <button class="create-account" id="open">Join Us</button>
+        </header>
+
+        <!-- details -->
+        <div class="container">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                aliquid minus, cupiditate voluptatibus eaque sed optio magni
+                alias, eveniet dolorem rem voluptas, ut officia odio minima
+                quae! Nobis, optio commodi.</p>
+
+            <h2>Game Development</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                est impedit ullam aperiam, commodi suscipit. Eligendi beatae
+                quis quasi? Corrupti fuga blanditiis aliquam nisi libero
+                dignissimos officiis, eaque pariatur minus?</p>
+        </div>
+
+        <!-- modal form -->
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <button class="close-btn" id="close">
+                    <i class="fa fa-close"></i>
+                </button>
+                <div class="modal-header">
+                    <h3>Create Account</h3>
+                </div>
+                <div class="modal-content">
+                    <p>Register Form</p>
+                    <form class="modal-form">
+                        <div>
+                            <label>Username</label>
+                            <input type="text" class="form-input">
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" class="form-input">
+                        </div>
+                        <div>
+                            <label>Password</label>
+                            <input type="password" class="form-input">
+                        </div>
+                        <input type="submit" value="Register" class="submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
