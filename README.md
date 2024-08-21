@@ -25,7 +25,9 @@
 |20.Menu Slider and modal | สร้างเมนูที่สไลด์จากด้านข้าง และ form modal | [Click](https://github.com/game1095/javascript/tree/main/menu_slider)|
 |21.Expand Card Effect | กดแล้วขยาย card | [Click](https://github.com/game1095/javascript/tree/main/expand_card_effect)|
 |22.Product Scroll Animation | เลื่อนแล้วการ์ดจะค่อย ๆ เลื่อนเข้ามาที่หน้าจอ | [Click](https://github.com/game1095/javascript/tree/main/product_scroll_animation)|
-|22.Split Page Content | สร้างหน้าเว็บให้แบ่งฝั่งซ้าย/ขวา | [Click](https://github.com/game1095/javascript/tree/main/split_page_content)|
+|23.Split Page Content | สร้างหน้าเว็บให้แบ่งฝั่งซ้าย/ขวา | [Click](https://github.com/game1095/javascript/tree/main/split_page_content)|
+|24.Character Limit | จำกัดการพิมพ์ | [Click](https://github.com/game1095/javascript/tree/main/character_limit)|
+
 
 
 
