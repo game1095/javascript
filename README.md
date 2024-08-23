@@ -27,6 +27,8 @@
 |22.Product Scroll Animation | เลื่อนแล้วการ์ดจะค่อย ๆ เลื่อนเข้ามาที่หน้าจอ | [Click](https://github.com/game1095/javascript/tree/main/product_scroll_animation)|
 |23.Split Page Content | สร้างหน้าเว็บให้แบ่งฝั่งซ้าย/ขวา | [Click](https://github.com/game1095/javascript/tree/main/split_page_content)|
 |24.Character Limit | จำกัดการพิมพ์ | [Click](https://github.com/game1095/javascript/tree/main/character_limit)|
+|25.Image Carousel | สไดล์รูปภาพ | [Click](https://github.com/game1095/javascript/tree/main/image_carousel)|
+
 
 
 
