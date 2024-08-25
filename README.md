@@ -31,6 +31,7 @@
 |26.Satisfaction App | ระบบประเมินความพึงพอใจ โดยใช้ emoji | [Click](https://github.com/game1095/javascript/tree/main/satisfaction_app)|
 |27.Code Editor | สร้างหน้าสำหรับเขียนโค๊ดแบบง่าย ๆ | [Click](https://github.com/game1095/javascript/tree/main/satisfaction_app)|
 |27.Quiz Application | ข้อสอบออนไลน์ | [Click](https://github.com/game1095/javascript/tree/main/quiz_application)|
+|28.Vertical Content | แสดงเนื้อหาในแนวตั้ง | [Click](https://github.com/game1095/javascript/tree/main/vertical_content)|
 
 
 
